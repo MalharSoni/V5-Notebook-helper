@@ -43,6 +43,7 @@ Start with these files in order:
 | [VISUAL-DESIGN-GUIDE.md](docs/VISUAL-DESIGN-GUIDE.md) | Design standards | Colors, typography, layouts, PowerPoint tips |
 | [TEAM-839Z-ANALYSIS.md](docs/TEAM-839Z-ANALYSIS.md) | Team-specific analysis | Strengths, gaps, recommendations, priorities |
 | [WINNING-NOTEBOOK-EXAMPLES.md](docs/WINNING-NOTEBOOK-EXAMPLES.md) | Examples & insights | Award winners, what judges look for |
+| [EXTERNAL-RESOURCES.md](docs/EXTERNAL-RESOURCES.md) | External tools & guides | Community resources, AI tools, example notebooks |
 
 ---
 
@@ -103,7 +104,8 @@ V5-Notebook-helper/
 │   ├── NOTEBOOK-STRUCTURE-GUIDE.md  # Section templates
 │   ├── VISUAL-DESIGN-GUIDE.md  # Design standards
 │   ├── TEAM-839Z-ANALYSIS.md   # Team assessment
-│   └── WINNING-NOTEBOOK-EXAMPLES.md # Example analysis
+│   ├── WINNING-NOTEBOOK-EXAMPLES.md # Example analysis
+│   └── EXTERNAL-RESOURCES.md   # External tools & guides
 ├── notebook-pages/              # Current notebook (110 PNG images)
 │   ├── page_001.png            # Cover page
 │   ├── page_002.png            # Table of contents
@@ -116,20 +118,27 @@ V5-Notebook-helper/
 
 ## Key Resources (External)
 
-### Official RECF Resources
+For a comprehensive catalog of external resources including example notebooks, community guides, and AI analysis tools, see [EXTERNAL-RESOURCES.md](docs/EXTERNAL-RESOURCES.md).
+
+### Quick Links
+
+**Official RECF Resources**
 - [V5RC Knowledge Base](https://v5rc-kb.recf.org/)
 - [RECF Library](https://kb.roboticseducation.org/)
 - [Engineering Notebook Rubric](https://kb.roboticseducation.org/hc/en-us/articles/4461349729047-Judging-Resource-Engineering-Notebook-Rubric)
 - [Guide to Judging - Awards](https://kb.roboticseducation.org/hc/en-us/articles/4912455338391-Guide-to-Judging-Awards)
 
-### Templates & Examples
-- [VEX Digital Notebook Templates](https://notebooks.vex.com)
-- [Engineering Notebook Examples](https://v5rc-kb.recf.org/hc/en-us/articles/9662127437591-VEX-Engineering-Notebook-Examples)
-
-### Community Resources
-- [VEX Forum](https://www.vexforum.com/)
+**Community Guides**
+- [IIWII Robotics Engineering Notebook Guide](https://iiwii-robotics.gitbook.io/engineering-notebook) - Award-winning team's perspective
 - [Ascend Robotics Guide](https://ascendrobotics.gitbook.io/ascend/vex-robotics/engineering-notebook/notebook-walkthrough)
 - [Purdue SIGBots Wiki](https://wiki.purduesigbots.com/)
+
+**Example Notebooks**
+- [Team 1469A Engineering Notebook](https://1469a.tiny.us/OUEngNB) - Real-world example (May 2024)
+- [Additional Examples Collection](https://docs.google.com/document/d/1KzAysdwAzCvlcyOglsh9zl7DBtFe-B6tJ56fLckdNjE/edit?tab=t.0)
+
+**AI Analysis Tools**
+- [VEX-Notebook-AI](https://github.com/VarunKurra/VEX-Notebook-AI) - Notebook evaluation tool (analysis only, RECF-compliant)
 
 ---
 

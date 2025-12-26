@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V5-Notebook-Helper Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        .card h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        .status-ready {
+            background: #10b981;
+            color: white;
+        }
+
+        .status-pending {
+            background: #f59e0b;
+            color: white;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .api-link {
+            color: #667eea;
+            text-decoration: none;
+            padding: 10px 15px;
+            background: #f3f4f6;
+            border-radius: 5px;
+            display: inline-block;
+            margin: 5px;
+            transition: background 0.3s;
+        }
+
+        .api-link:hover {
+            background: #e5e7eb;
+        }
+
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 30px;
+            padding: 20px;
+        }
+
+        .warning {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        code {
+            background: #f3f4f6;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🤖 V5-Notebook-Helper</h1>
+            <p class="subtitle">Engineering Notebook Analysis Dashboard - Team 839Z Caution Tape ZOOM!</p>
+        </header>
+
+        <div class="card">
+            <h2>Dashboard Status</h2>
+            {% if has_analysis %}
+            <p><span class="status-badge status-ready">Ready</span> Analysis data available</p>
+            {% else %}
+            <p><span class="status-badge status-pending">No Data</span> Run analysis first using CLI</p>
+            <div class="warning">
+                <strong>⚠️ No analysis found</strong><br>
+                Run <code>python cli.py analyze --pages all</code> to analyze your notebook
+            </div>
+            {% endif %}
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <h2>📊 Rubric Scores</h2>
+                <p>View EN1-EN10 rubric scores and status</p>
+                <a href="/api/rubric_scores" class="api-link">View Scores →</a>
+            </div>
+
+            <div class="card">
+                <h2>🔍 Gaps Analysis</h2>
+                <p>Identified missing elements and weaknesses</p>
+                <a href="/api/gaps" class="api-link">View Gaps →</a>
+            </div>
+
+            <div class="card">
+                <h2>💡 Recommendations</h2>
+                <p>Actionable improvements for your notebook</p>
+                <a href="/api/recommendations" class="api-link">View Recommendations →</a>
+            </div>
+
+            <div class="card">
+                <h2>📈 Progress</h2>
+                <p>Track improvement over time</p>
+                <a href="/api/progress" class="api-link">View Progress →</a>
+            </div>
+
+            <div class="card">
+                <h2>✅ Action Items</h2>
+                <p>Tasks to improve notebook quality</p>
+                <a href="/api/action_items" class="api-link">View Action Items →</a>
+            </div>
+
+            <div class="card">
+                <h2>🏥 System Health</h2>
+                <p>Check system status</p>
+                <a href="/health" class="api-link">Health Check →</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>🚀 Quick Start</h2>
+            <p><strong>Analyze your notebook:</strong></p>
+            <code>python cli.py analyze --pages all</code>
+            <br><br>
+            <p><strong>View gaps:</strong></p>
+            <code>python cli.py gaps</code>
+            <br><br>
+            <p><strong>Check progress:</strong></p>
+            <code>python cli.py progress</code>
+            <br><br>
+            <p><strong>Practice interview:</strong></p>
+            <code>python cli.py interview practice</code>
+        </div>
+
+        <div class="footer">
+            <p>V5-Notebook-Helper v0.1.0 | Team 839Z - Caution Tape ZOOM!</p>
+            <p>2024-2025 VRC High Stakes Season</p>
+        </div>
+    </div>
+</body>
+</html>

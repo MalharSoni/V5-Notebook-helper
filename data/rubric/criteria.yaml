@@ -1,0 +1,351 @@
+# VEX V5RC Engineering Notebook Rubric Criteria (EN1-EN10)
+# Based on RECF official rubric
+# Source: https://kb.roboticseducation.org/hc/en-us/articles/4461349729047
+
+rubric_criteria:
+  EN1:
+    code: "EN1"
+    title: "Identify the Challenge"
+    description: "Identify game and robot design challenges in detail at the start of each design process cycle"
+    category: "Engineering Design Process"
+    max_points: 5
+
+    requirements:
+      - "Identify challenges in detail at start of each design cycle"
+      - "Use both words AND pictures"
+      - "State clear goals for accomplishing the challenge"
+      - "Cover both game challenges and robot design challenges"
+      - "Show understanding of game strategy requirements"
+
+    proficiency_levels:
+      expert: "Detailed identification of challenges with comprehensive analysis using words and pictures; clear, measurable goals stated"
+      proficient: "Good identification of challenges with adequate detail; goals are present but may lack some specificity"
+      emerging: "Basic or vague challenge identification; minimal detail or missing visual elements"
+
+    examples:
+      - "Game analysis breaking down scoring zones and point values"
+      - "Robot design challenges for specific game elements (rings, mobile goals, etc.)"
+      - "Strategic analysis of 7-8 different game strategies"
+      - "Detailed sketches showing game field and scoring opportunities"
+
+    common_gaps:
+      - "Only identifying final robot, not challenges to solve"
+      - "Missing visual diagrams of game/challenges"
+      - "Vague or unclear goals"
+      - "Insufficient detail in challenge description"
+
+  EN2:
+    code: "EN2"
+    title: "Student-Centered Policy"
+    description: "Notebook must align with RECF's Student-Centered Policy and Code of Conduct"
+    category: "Compliance"
+    max_points: 5
+
+    requirements:
+      - "All content created by students on the team"
+      - "No material contribution from adults"
+      - "Authentic student voice throughout"
+      - "Templates are acceptable tools but students organize independently"
+      - "Adults can view but not edit or organize"
+
+    proficiency_levels:
+      expert: "Clear evidence of authentic student work; consistent student voice; independent organization"
+      proficient: "Generally student-centered with minor concerns about voice or organization"
+      emerging: "Signs of adult involvement or overly polished content inconsistent with student skill level"
+
+    examples:
+      - "Authentic student language and terminology"
+      - "Handwriting and drawing styles consistent with students"
+      - "Age-appropriate technical depth"
+      - "Student signatures and names on entries"
+
+    common_gaps:
+      - "Overly professional graphics inconsistent with student work"
+      - "Adult-level technical writing"
+      - "Perfect organization suggesting adult intervention"
+      - "Lack of student voice or personality"
+
+  EN3:
+    code: "EN3"
+    title: "Academic Honesty"
+    description: "Cite and credit sources of materials and ideas not their own"
+    category: "Compliance"
+    max_points: 5
+
+    requirements:
+      - "Cite all sources of materials and ideas"
+      - "Reference materials placed in appendix"
+      - "Never claim outside information as original work"
+      - "Follow academic integrity standards"
+      - "Proper attribution for code, designs, concepts from others"
+
+    proficiency_levels:
+      expert: "All sources properly cited; clear distinction between original and referenced work"
+      proficient: "Most sources cited; minor omissions but honest intent clear"
+      emerging: "Missing citations; unclear what is original vs. referenced"
+
+    examples:
+      - "Citations for VEX Forum posts that inspired designs"
+      - "References to tutorial videos or documentation"
+      - "Appendix with external resources used"
+      - "Attribution when adapting others' code or mechanisms"
+
+    common_gaps:
+      - "No citations present"
+      - "Using external designs without attribution"
+      - "Copying code without crediting source"
+      - "Missing appendix with references"
+
+  EN4:
+    code: "EN4"
+    title: "Brainstorm Solutions"
+    description: "List three or more possible solutions to the challenge with diagrams"
+    category: "Engineering Design Process"
+    max_points: 5
+
+    requirements:
+      - "Document 3+ possible solutions for each major subsystem/challenge"
+      - "Include labeled diagrams for EACH solution"
+      - "Explain why final solution was selected"
+      - "Use testing and/or decision matrix to justify selection"
+      - "Show genuine consideration of alternatives"
+
+    proficiency_levels:
+      expert: "Multiple well-developed alternatives with detailed diagrams; clear selection process using decision matrix or testing"
+      proficient: "3+ options shown with diagrams; selection reasoning present but may lack depth"
+      emerging: "Fewer than 3 options, minimal diagrams, or unclear selection process"
+
+    examples:
+      - "3+ intake mechanism designs with sketches"
+      - "Multiple drivetrain configurations compared"
+      - "Decision matrix with weighted criteria (speed, reliability, ease of build, etc.)"
+      - "Pros and cons lists for each design option"
+
+    common_gaps:
+      - "Only showing final design without alternatives"
+      - "Fewer than 3 options per subsystem"
+      - "Missing diagrams or labels"
+      - "No decision matrix or clear selection justification"
+      - "Options appear added after-the-fact rather than genuine brainstorming"
+
+  EN5:
+    code: "EN5"
+    title: "Build and Program Documentation"
+    description: "Record steps to build and program with enough detail to recreate the robot"
+    category: "Engineering Design Process"
+    max_points: 5
+
+    requirements:
+      - "Document build steps in sufficient detail"
+      - "Include enough information that reader could recreate robot"
+      - "Show logic used by team in build decisions"
+      - "Document programming approach and key algorithms"
+      - "Include CAD, technical drawings, or detailed photos"
+
+    proficiency_levels:
+      expert: "Comprehensive build and code documentation; reader could recreate robot from documentation alone"
+      proficient: "Good documentation with most details present; minor gaps but overall approach is clear"
+      emerging: "Incomplete documentation; reader could not recreate robot from information provided"
+
+    examples:
+      - "CAD models with bill of materials"
+      - "Step-by-step build instructions with photos"
+      - "Gear ratios and calculations documented"
+      - "Code snippets with explanations of key algorithms"
+      - "Wiring diagrams for electronics"
+
+    common_gaps:
+      - "Only showing final robot without build process"
+      - "Missing technical specifications (gear ratios, dimensions, materials)"
+      - "No programming documentation"
+      - "Insufficient detail to recreate design"
+
+  EN6:
+    code: "EN6"
+    title: "Test and Record Results"
+    description: "Record all testing steps with measurable data for both successes and failures"
+    category: "Engineering Design Process"
+    max_points: 5
+
+    requirements:
+      - "Document all testing steps and procedures"
+      - "Include measurable, quantitative test results"
+      - "Record BOTH successes and failures"
+      - "Show how test results informed design decisions"
+      - "Use data tables, graphs, or structured recording"
+
+    proficiency_levels:
+      expert: "Comprehensive testing with quantitative data; both successes and failures documented; clear impact on design"
+      proficient: "Good testing documentation with some quantitative data; may lack complete failure documentation"
+      emerging: "Minimal testing shown; mostly qualitative descriptions; little evidence of failures"
+
+    examples:
+      - "Intake speed tests with ring collection rates (rings/second)"
+      - "Drivetrain speed tests with time trials"
+      - "Autonomous routine accuracy data (% success rate)"
+      - "Comparison tests between design iterations"
+      - "Failure analysis showing what didn't work and why"
+
+    common_gaps:
+      - "Only qualitative descriptions (works well vs. 15 seconds to complete task)"
+      - "No failure documentation"
+      - "Missing test procedures"
+      - "Results not used to inform design decisions"
+
+  EN7:
+    code: "EN7"
+    title: "Design Iterations"
+    description: "Show design process repeated multiple times with clear improvement"
+    category: "Engineering Design Process"
+    max_points: 5
+
+    requirements:
+      - "Document multiple complete design cycles"
+      - "Show clear iterations and improvements over time"
+      - "Label design cycles clearly (Design Cycle 1, 2, 3, etc.)"
+      - "Demonstrate improvement in performance or goal achievement"
+      - "Connect iterations to test results and feedback"
+
+    proficiency_levels:
+      expert: "Multiple clear design cycles; improvements well-documented; iterations driven by data/testing"
+      proficient: "Some iterations present; progression visible but may lack clear labeling or connection to testing"
+      emerging: "Minimal iteration shown; unclear progression; changes not well justified"
+
+    examples:
+      - "Intake v1, v2, v3 with improvements at each stage"
+      - "Clear labels: Design Cycle 1, Design Cycle 2, etc."
+      - "Before/after comparisons showing improvements"
+      - "Progression from simple to complex designs"
+      - "Failed designs leading to better solutions"
+
+    common_gaps:
+      - "Only one design cycle shown"
+      - "Iterations not clearly labeled or identified"
+      - "Changes made without showing why (no test data driving changes)"
+      - "Timeline of iterations unclear"
+
+  EN8:
+    code: "EN8"
+    title: "Project Management"
+    description: "Complete record of team organization, meetings, and resource management"
+    category: "Project Management"
+    max_points: 5
+
+    requirements:
+      - "Document team and project assignments/roles"
+      - "Include team meeting notes with goals, decisions, accomplishments"
+      - "Show resource constraints (time and materials/budget)"
+      - "Design cycles should be easily identified"
+      - "Evidence of organized project planning"
+
+    proficiency_levels:
+      expert: "Comprehensive project management; clear roles; detailed meeting notes; budget/resource tracking; organized timeline"
+      proficient: "Good project management documentation; most elements present but some gaps"
+      emerging: "Minimal project management shown; unclear roles or missing meeting documentation"
+
+    examples:
+      - "Team roles clearly defined (driver, builder, programmer, scout, etc.)"
+      - "Meeting minutes with dates, attendees, decisions"
+      - "Task assignments and completion tracking"
+      - "Budget spreadsheet with parts and costs"
+      - "Timeline showing project milestones"
+
+    common_gaps:
+      - "No team roles identified"
+      - "Missing meeting documentation"
+      - "No budget or resource tracking"
+      - "Unclear project timeline"
+
+  EN9:
+    code: "EN9"
+    title: "Evidence of Sequential Documentation"
+    description: "Prove documentation was done in sequence with design process, not retroactively"
+    category: "Verification"
+    max_points: 5
+
+    requirements:
+      - "Entries include dates and timestamps"
+      - "Contributor names on entries"
+      - "For physical notebooks: signed entries in ink"
+      - "For digital: revision history or timestamps"
+      - "Chronological progression evident"
+      - "Evidence that documentation happened concurrently with work"
+
+    proficiency_levels:
+      expert: "Clear timestamps/dates on all entries; obvious chronological documentation; strong evidence of concurrent work"
+      proficient: "Most entries dated; generally chronological; minor gaps in timestamp evidence"
+      emerging: "Missing dates/timestamps; unclear timeline; possible retroactive documentation"
+
+    examples:
+      - "Every page has date and author name"
+      - "Timestamps showing work spread over season"
+      - "References to upcoming competitions that align with dates"
+      - "Progressive refinement visible in chronological order"
+      - "Digital platform revision history"
+
+    common_gaps:
+      - "Missing dates on entries"
+      - "All entries appear written at once (same pen, same handwriting density)"
+      - "No timestamps or attribution"
+      - "Non-chronological organization"
+
+  EN10:
+    code: "EN10"
+    title: "Appendices"
+    description: "Organize and separate reference materials from main body"
+    category: "Organization"
+    max_points: 3
+
+    requirements:
+      - "Reference materials placed in appendix"
+      - "Clear separation from main notebook content"
+      - "Organized presentation of supplementary materials"
+      - "Does not substitute for proper documentation in main body"
+
+    proficiency_levels:
+      expert: "Well-organized appendix; clear purpose; supplements main content appropriately"
+      proficient: "Appendix present with reference materials; adequate organization"
+      emerging: "Missing appendix or unclear organization; possibly using appendix inappropriately"
+
+    note: "Judges do NOT consider appendix content when determining rubric scores. Appendices may be used for context only."
+
+    examples:
+      - "Parts catalog with VEX part numbers"
+      - "External resources and citations"
+      - "Full code listings (with key sections in main body)"
+      - "Additional CAD views or technical drawings"
+      - "Competition results data"
+
+    common_gaps:
+      - "No appendix section"
+      - "Important content hidden in appendix instead of main body"
+      - "Disorganized appendix"
+
+# Scoring Guidelines
+scoring_guidelines:
+  fully_developed:
+    requirement: "2+ points in first four criteria (EN1-EN4)"
+    description: "Outlines at least one complete iteration of the Engineering Design Process"
+    award_eligibility: "Required for Design, Innovate, and Excellence awards"
+
+  excellence_award_target:
+    requirement: "Top 30% of Fully Developed notebooks"
+    additional_requirements:
+      - "Top 40% performance at event"
+      - "Successful team interview"
+      - "Evidence of independent inquiry"
+      - "Multiple award category contender"
+
+# Award Weightings
+award_priorities:
+  excellence_award:
+    critical_criteria: ["EN1", "EN2", "EN3", "EN4", "EN5", "EN6", "EN7", "EN8", "EN9"]
+    description: "All criteria matter; top-tier execution across the board"
+
+  design_award:
+    critical_criteria: ["EN4", "EN5", "EN7", "EN8"]
+    description: "Focus on design process, documentation, and project management"
+
+  innovate_award:
+    critical_criteria: ["EN4", "EN5", "EN6"]
+    description: "Emphasis on creative solutions and thorough documentation"

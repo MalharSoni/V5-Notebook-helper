@@ -1,0 +1,168 @@
+# VEX Engineering Notebook Interview Questions
+# Organized by rubric criteria
+
+interview_questions:
+  EN1_identify_challenge:
+    - question: "What were the main challenges you identified for this year's game?"
+      follow_ups:
+        - "How did you prioritize which challenges to solve first?"
+        - "Did your understanding of the game challenges change during the season?"
+
+    - question: "Can you walk me through your game analysis process?"
+      follow_ups:
+        - "What scoring strategies did you consider?"
+        - "How did you evaluate the effectiveness of different strategies?"
+
+  EN4_brainstorming:
+    - question: "Tell me about the different design options you considered for [subsystem]."
+      follow_ups:
+        - "Why did you ultimately choose this design?"
+        - "What would you change if you could start over?"
+
+    - question: "How did you use decision matrices in your design process?"
+      follow_ups:
+        - "What criteria did you weight most heavily?"
+        - "Did the decision matrix outcome surprise you?"
+
+    - question: "Can you describe a design option you considered but ultimately rejected?"
+      follow_ups:
+        - "What made you rule it out?"
+        - "Did you learn anything from exploring that option?"
+
+  EN5_build_documentation:
+    - question: "Could someone recreate your robot from your notebook alone?"
+      follow_ups:
+        - "What details did you include to make that possible?"
+        - "Were there any parts that were hard to document?"
+
+    - question: "Tell me about your CAD process and how it helped your build."
+      follow_ups:
+        - "Did you encounter any issues when building that CAD didn't show?"
+        - "How did you document those differences?"
+
+  EN6_testing:
+    - question: "What was your testing process for [specific subsystem]?"
+      follow_ups:
+        - "What data did you collect?"
+        - "How did the results inform your next iteration?"
+
+    - question: "Can you tell me about a time when testing revealed a problem?"
+      follow_ups:
+        - "What did the data show?"
+        - "How did you address it?"
+
+    - question: "How did you measure success in your tests?"
+      follow_ups:
+        - "Why did you choose those metrics?"
+        - "Did you compare against any benchmarks?"
+
+  EN7_iterations:
+    - question: "How many design iterations did you go through for [subsystem]?"
+      follow_ups:
+        - "What improved from one iteration to the next?"
+        - "How did you decide when to move on to a new iteration?"
+
+    - question: "Can you describe your biggest design change during the season?"
+      follow_ups:
+        - "What prompted the change?"
+        - "How did you validate it was an improvement?"
+
+  EN8_project_management:
+    - question: "What roles does each team member have?"
+      follow_ups:
+        - "How did you decide who would do what?"
+        - "Did roles change during the season?"
+
+    - question: "How did you manage your time and resources?"
+      follow_ups:
+        - "What was your biggest constraint?"
+        - "How did you track progress toward goals?"
+
+    - question: "Tell me about your team meetings."
+      follow_ups:
+        - "How often did you meet?"
+        - "How did you document decisions made in meetings?"
+
+  general_notebook:
+    - question: "What section of your notebook are you most proud of?"
+      follow_ups:
+        - "What makes it stand out?"
+        - "What did you learn while creating it?"
+
+    - question: "If you could add one more section to your notebook, what would it be?"
+      follow_ups:
+        - "Why that section?"
+        - "What prevented you from including it originally?"
+
+    - question: "How did your notebook evolve throughout the season?"
+      follow_ups:
+        - "What changed in how you documented?"
+        - "What did you learn about the documentation process?"
+
+  design_process:
+    - question: "Walk me through your engineering design process from start to finish."
+      follow_ups:
+        - "How did you ensure you were following best practices?"
+        - "What resources did you reference?"
+
+    - question: "How did failures contribute to your final design?"
+      follow_ups:
+        - "Can you give a specific example?"
+        - "How did documenting failures help your team?"
+
+  student_centered:
+    - question: "Who on your team contributed to the notebook?"
+      follow_ups:
+        - "How did you divide the work?"
+        - "How did you ensure everyone's voice was included?"
+
+    - question: "What role did mentors play in your design process?"
+      follow_ups:
+        - "How did you balance guidance with student ownership?"
+        - "Can you give an example of a decision made entirely by students?"
+
+# Question selection strategies
+question_strategies:
+  start_easy:
+    description: "Begin with general questions to make students comfortable"
+    questions:
+      - "Tell me about your robot."
+      - "What was the most fun part of your season?"
+      - "How did your team work together?"
+
+  test_depth:
+    description: "Probe for genuine understanding vs. memorization"
+    techniques:
+      - "Ask about specific page numbers or entries"
+      - "Request elaboration on technical details"
+      - "Ask 'why' questions about decisions"
+      - "Request comparisons between options"
+
+  verify_authenticity:
+    description: "Confirm student-centered work"
+    questions:
+      - "Who wrote this section?"
+      - "What were you thinking when you made this decision?"
+      - "Did anything unexpected happen during this test?"
+
+# Tips for students
+student_tips:
+  preparation:
+    - "Know your notebook - any team member should be able to discuss any section"
+    - "Practice explaining your design decisions, not just describing them"
+    - "Be ready to discuss failures as well as successes"
+    - "Don't memorize - understand the 'why' behind everything"
+
+  during_interview:
+    - "Be authentic and conversational, not rehearsed"
+    - "It's okay to reference your notebook during the interview"
+    - "Show enthusiasm for your work"
+    - "If you don't know something, be honest"
+    - "Connect your answers back to your engineering process"
+
+  common_mistakes:
+    - "Reciting notebook contents verbatim"
+    - "Only one person answering all questions"
+    - "Being unable to explain reasoning behind decisions"
+    - "Not being familiar with all sections of notebook"
+    - "Scripted or over-rehearsed responses"
