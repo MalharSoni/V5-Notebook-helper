@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(tree:*)",
+      "Bash(file:*)",
+      "WebFetch(domain:v5rc-kb.recf.org)",
+      "WebFetch(domain:kb.roboticseducation.org)",
+      "WebFetch(domain:recf.org)",
+      "WebFetch(domain:ascendrobotics.gitbook.io)",
+      "WebFetch(domain:www.vexwiki.org)",
+      "WebFetch(domain:jconlin.weebly.com)",
+      "Bash(dir:*)",
+      "Bash(identify:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd comprehensive notebook documentation and toolkit plan\n\nDocumentation created:\n- RECF-JUDGING-GUIDE.md: Complete EN1-EN10 rubric criteria\n- NOTEBOOK-STRUCTURE-GUIDE.md: Section templates and checklists\n- VISUAL-DESIGN-GUIDE.md: Design standards and PowerPoint tips\n- TEAM-839Z-ANALYSIS.md: Gap analysis and priority actions\n- WINNING-NOTEBOOK-EXAMPLES.md: Award-winning examples\n- QUICK-REFERENCE.md: Printable cheat sheet\n\nProject context:\n- CLAUDE.md: Full context for resuming toolkit development\n- README.md: Repository overview and quick start\n\nPlanned toolkit \\(not yet built\\):\n- Automated GPT-4 Vision analysis\n- Progress tracking dashboard\n- Interview prep system\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}
